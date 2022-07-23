@@ -64,10 +64,10 @@ body{
  letter-spacing: 5px;
 }
 
-.card-conten h4{
+.price-out{
     text-align: center;
     text-decoration: line-through;
-    margin: 0 20px;
+    margin: 0 20px !important;
 }
 .card-conten h2{
     font-family: var(--Font2);
@@ -117,10 +117,16 @@ body{
     body{
         height: 88%;
     }
-    .card-container{
+    main{
         flex-direction: column;   
         align-items: center;     
         width: 95%;
+
+    }
+    .card-container{
+        flex-direction: column;   
+        align-items: center;     
+        width: 100%;
     }
     .card-img{
         width: 100%;
