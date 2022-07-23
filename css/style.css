@@ -100,6 +100,8 @@ body{
    padding: 10px 40px;  
    cursor: pointer;
    width: 100%;
+   color: var(--White) !important;
+   font-weight: 700 !important;
    
 }
 
@@ -109,8 +111,6 @@ body{
 }
 
 .button-text {
-    color: var(--White) !important;
-    font-weight: 700 !important;
 }
 
 @media (max-width:375px) {
@@ -139,8 +139,8 @@ body{
         justify-content: center;
     }
 
-    .button-text {
-        margin-left: 10px !important;
+    button img {
+        margin-right: 10px !important;
     }
 
 }
