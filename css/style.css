@@ -110,9 +110,6 @@ body{
 
 }
 
-.button-text {
-}
-
 @media (max-width:375px) {
     body{
         height: 88%;
